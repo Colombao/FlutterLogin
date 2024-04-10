@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:snow_login/screens/home.dart';
 import 'package:snow_login/utils/animations.dart';
 
 import '../data/bg_data.dart';
@@ -22,7 +23,7 @@ class _LoginScreenState extends State<LoginScreen> {
         margin:const  EdgeInsets.symmetric(vertical: 10),
         height: 49,
         width: double.infinity,
-        
+
         child: Row(
           children: [
             Expanded(
@@ -132,13 +133,14 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
           ),
           const   Spacer(),
-          TextUtil(text: "Password",),
+          TextUtil(text: "Senha",),
           Container(
             height: 35,
             decoration:const  BoxDecoration(
                 border: Border(bottom: BorderSide(color: Colors.white))
             ),
             child:TextFormField(
+              obscureText: true,
               style: const TextStyle(color: Colors.white),
               decoration:const  InputDecoration(
                 suffixIcon: Icon(Icons.lock,color: Colors.white,),
@@ -155,21 +157,32 @@ class _LoginScreenState extends State<LoginScreen> {
                 color: Colors.white,
               ),
              const  SizedBox(width: 10,),
-              Expanded(child: TextUtil(text: "Remember Me , FORGET PASSWORD",size: 12,weight: true,))
+              Expanded(child: TextUtil(text: "Me Lembre , Esqueceu a senha",size: 12,weight: true,))
             ],
           ), const   Spacer(),
-          Container(
-            height: 40,
-            width: double.infinity,
-            decoration:  BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.circular(30)
+          ElevatedButton(
+            onPressed: () {
+              print('Botão pressionado! Navegando para HomePage...');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => HomePage(),
+                ),
+              );
+            },
+            child: Container(
+              height: 40,
+              width: double.infinity,
+              decoration:  BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(30)
+              ),
+              alignment: Alignment.center,
+              child: TextUtil(text: "Entrar",color: Colors.black,),
             ),
-            alignment: Alignment.center,
-            child: TextUtil(text: "Log In",color: Colors.black,),
           ),
        const   Spacer(),
-          Center(child: TextUtil(text: "Don't have a account REGISTER",size: 12,weight: true,)),
+          Center(child: TextUtil(text: "Não tem conta?, Registrar",size: 12,weight: true,)),
           const   Spacer(),
 
 
