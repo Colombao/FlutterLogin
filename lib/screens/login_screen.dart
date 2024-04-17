@@ -162,7 +162,6 @@ class _LoginScreenState extends State<LoginScreen> {
           ), const   Spacer(),
           ElevatedButton(
             onPressed: () {
-              print('Botão pressionado! Navegando para HomePage...');
               Navigator.push(
                 context,
                 MaterialPageRoute(
@@ -174,7 +173,7 @@ class _LoginScreenState extends State<LoginScreen> {
               height: 40,
               width: double.infinity,
               decoration:  BoxDecoration(
-                  color: Colors.white,
+                  color: Colors.transparent,
                   borderRadius: BorderRadius.circular(30)
               ),
               alignment: Alignment.center,
