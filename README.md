@@ -1,11 +1,11 @@
 Projeto Flutter Insipirado nas seguintes prints:
 
 # Screenshot 1
-<img src ="https://github.com/Mirzaazmath/dynamic_login_page_flutter/blob/main/assets/output/Screenshot1.png" height="400">
+![image](https://github.com/Colombao/FlutterLogin/assets/128653143/f037bb9c-75bf-4f2f-b002-a5c0d6d462b7)
 
 # Screenshot 2
 
-<img src ="https://github.com/Mirzaazmath/dynamic_login_page_flutter/blob/main/assets/output/Screenshot2.png" height="400">
+![image](https://github.com/Colombao/FlutterLogin/assets/128653143/9b5f95ce-0420-4644-a8e0-e49a7c1ca966)
 
 # Screenshot 3
 
