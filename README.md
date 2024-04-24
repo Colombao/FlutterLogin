@@ -12,7 +12,36 @@ Projeto Flutter Insipirado nas seguintes prints:
 ![image](https://github.com/Colombao/FlutterLogin/assets/128653143/2c0e6830-f1f9-48bb-9409-963f5c837bf0)
 
 
+##Escopo
+Tela de login:
 
+Tela de login dinamica que consiste em imagens que podem ser adicionadas pelo usuario
+
+Galeria de Imagens:
+
+Exibição de Imagens: Mostrar uma grade de imagens na galeria.
+Seleção de Imagens: Permitir que o usuário selecione imagens da galeria para serem enviadas para a tela de login.
+Funcionalidade de Envio: Implementar a funcionalidade para enviar imagens selecionadas da galeria para a tela de login.
+Integração com Tela de Login:
+
+Recepção de Imagens: Na tela de login, receber as imagens enviadas da galeria.
+Exibição de Imagens na Tela de Login: Mostrar as imagens recebidas na tela de login.
+Utilização de Imagens na Tela de Login: Permitir que o usuário utilize as imagens recebidas como parte da experiência de login.
+
+Lista de Funcionalidades por Tela:
+
+Tela de Login:
+
+Autenticar usuário com nome de usuário e senha.
+Apresentar imagens dinâmicas para tornar a tela mais atrativa.
+Permitir que o usuário utilize as imagens enviadas da galeria como parte da experiência de login.
+
+Galeria de Imagens:
+
+Exibir uma grade de imagens na galeria.
+Permitir que o usuário selecione imagens da galeria.
+Implementar funcionalidade para enviar imagens selecionadas para a tela de login.
+Essas são as funcionalidades principais que devem ser implementadas em cada tela do projeto.
 
 
 ## Getting Started
