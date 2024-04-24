@@ -9,45 +9,9 @@ Projeto Flutter Insipirado nas seguintes prints:
 
 # Screenshot 3
 
-<img src ="https://github.com/Mirzaazmath/dynamic_login_page_flutter/blob/main/assets/output/Screenshot3.png" height="400">
+![image](https://github.com/Colombao/FlutterLogin/assets/128653143/2c0e6830-f1f9-48bb-9409-963f5c837bf0)
 
 
-# Screenshot 4
-
-<img src ="https://github.com/Mirzaazmath/dynamic_login_page_flutter/blob/main/assets/output/Screenshot4.png" height="400">
-
-
-# Screenshot 5
-
-<img src ="https://github.com/Mirzaazmath/dynamic_login_page_flutter/blob/main/assets/output/Screenshot5.png" height="400">
-
-
-
-# Screenshot 6
-
-<img src ="https://github.com/Mirzaazmath/dynamic_login_page_flutter/blob/main/assets/output/Screenshot6.png" height="400">
-
-
-
-
-
-# Screenshot 7
-
-<img src ="https://github.com/Mirzaazmath/dynamic_login_page_flutter/blob/main/assets/output/Screenshot7.png" height="400">
-
-
-
-
-# Screenshot 8
-
-<img src ="https://github.com/Mirzaazmath/dynamic_login_page_flutter/blob/main/assets/output/Screenshot8.png" height="400">
-
-
-
-
-# Result
-
-<img src ="https://github.com/Mirzaazmath/dynamic_login_page_flutter/blob/main/assets/output/result.gif" height="400">
 
 
 
