@@ -5,7 +5,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Home'),
+        title: Text('Fotos'),
       ),
       body: GridView.builder(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
@@ -13,12 +13,15 @@ class HomePage extends StatelessWidget {
           crossAxisSpacing: 4.0,
           mainAxisSpacing: 4.0,
         ),
-        itemCount: 7, // Número total de itens na grade, incluindo o botão "+"
+        itemCount: 8, // Número total de itens na grade, incluindo o botão "+"
         itemBuilder: (BuildContext context, int index) {
           if (index == 0) {
             // Primeiro item: botão "+" para adicionar nova foto
             return Container(
-              color: Colors.grey[300],
+              decoration: BoxDecoration(
+                color: Colors.grey[300],
+                borderRadius: BorderRadius.circular(15),
+              ),
               child: Center(
                 child: Icon(
                   Icons.add,
@@ -34,7 +37,10 @@ class HomePage extends StatelessWidget {
                 _showOptions(context, 'Foto $index'); // Passando o nome da foto
               },
               child: Container(
-                color: Colors.grey[300],
+                decoration: BoxDecoration(
+                  color: Colors.grey[300],
+                  borderRadius: BorderRadius.circular(15),
+                ),
                 child: Center(
                   child: Text(
                     'Foto $index',
@@ -72,7 +78,7 @@ class HomePage extends StatelessWidget {
               child: Container(
                 color: Colors.black,
                 child: Center(
-                  child: imageName != null
+                  child: imageName != ""
                       ? Image.asset(
                     'assets/$imageName.png', // Substitua pelo caminho correto da sua imagem
                     fit: BoxFit.contain,
