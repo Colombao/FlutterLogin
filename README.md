@@ -1,87 +1,57 @@
-# dynamic_Login_screen_UI
-
-A new Flutter project.
+Projeto Flutter Insipirado nas seguintes prints:
 
 # Screenshot 1
-
-<img src ="https://github.com/Mirzaazmath/dynamic_login_page_flutter/blob/main/assets/output/Screenshot1.png" height="400">
-
-
-
+![image](https://github.com/Colombao/FlutterLogin/assets/128653143/f037bb9c-75bf-4f2f-b002-a5c0d6d462b7)
 
 # Screenshot 2
 
-<img src ="https://github.com/Mirzaazmath/dynamic_login_page_flutter/blob/main/assets/output/Screenshot2.png" height="400">
-
-
-
-
+![image](https://github.com/Colombao/FlutterLogin/assets/128653143/9b5f95ce-0420-4644-a8e0-e49a7c1ca966)
 
 # Screenshot 3
 
-<img src ="https://github.com/Mirzaazmath/dynamic_login_page_flutter/blob/main/assets/output/Screenshot3.png" height="400">
+![image](https://github.com/Colombao/FlutterLogin/assets/128653143/2c0e6830-f1f9-48bb-9409-963f5c837bf0)
 
 
+## Escopo
+Tela de login:
 
+Tela de login dinamica que consiste em imagens que podem ser adicionadas pelo usuario
 
+Galeria de Imagens:
 
-# Screenshot 4
+Exibição de Imagens: Mostrar uma grade de imagens na galeria.
+Seleção de Imagens: Permitir que o usuário selecione imagens da galeria para serem enviadas para a tela de login.
+Funcionalidade de Envio: Implementar a funcionalidade para enviar imagens selecionadas da galeria para a tela de login.
+Integração com Tela de Login:
 
-<img src ="https://github.com/Mirzaazmath/dynamic_login_page_flutter/blob/main/assets/output/Screenshot4.png" height="400">
+Recepção de Imagens: Na tela de login, receber as imagens enviadas da galeria.
+Exibição de Imagens na Tela de Login: Mostrar as imagens recebidas na tela de login.
+Utilização de Imagens na Tela de Login: Permitir que o usuário utilize as imagens recebidas como parte da experiência de login.
 
+Lista de Funcionalidades por Tela:
 
+Tela de Login:
 
+Autenticar usuário com nome de usuário e senha.
+Apresentar imagens dinâmicas para tornar a tela mais atrativa.
+Permitir que o usuário utilize as imagens enviadas da galeria como parte da experiência de login.
 
+Galeria de Imagens:
 
-
-# Screenshot 5
-
-<img src ="https://github.com/Mirzaazmath/dynamic_login_page_flutter/blob/main/assets/output/Screenshot5.png" height="400">
-
-
-
-
-
-# Screenshot 6
-
-<img src ="https://github.com/Mirzaazmath/dynamic_login_page_flutter/blob/main/assets/output/Screenshot6.png" height="400">
-
-
-
-
-
-# Screenshot 7
-
-<img src ="https://github.com/Mirzaazmath/dynamic_login_page_flutter/blob/main/assets/output/Screenshot7.png" height="400">
-
-
-
-
-# Screenshot 8
-
-<img src ="https://github.com/Mirzaazmath/dynamic_login_page_flutter/blob/main/assets/output/Screenshot8.png" height="400">
-
-
-
-
-# Result
-
-<img src ="https://github.com/Mirzaazmath/dynamic_login_page_flutter/blob/main/assets/output/result.gif" height="400">
-
-
-
-
+Exibir uma grade de imagens na galeria.
+Permitir que o usuário selecione imagens da galeria.
+Implementar funcionalidade para enviar imagens selecionadas para a tela de login.
+Essas são as funcionalidades principais que devem ser implementadas em cada tela do projeto.
 
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Este projeto é um ponto de partida para uma aplicação Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+Alguns recursos para ajudá-lo a começar, se este for o seu primeiro projeto Flutter:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Para obter ajuda para começar com o desenvolvimento Flutter, consulte a
+documentação online [online documentation](https://docs.flutter.dev/), que oferece tutoriais,
+exemplos, orientações sobre desenvolvimento móvel e uma referência completa da API.
